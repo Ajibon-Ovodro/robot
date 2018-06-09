@@ -2,7 +2,6 @@
   "name": "robo_friends",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ajibon-ovodro.github.io/robo_friends/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.0",
@@ -15,7 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   }
 }
